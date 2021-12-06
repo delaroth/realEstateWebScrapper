@@ -9,7 +9,7 @@ const puppeteer = require("puppeteer");
 
 
     const page = await browser.newPage()
-    await page.goto("https://www.redfin.com/MO/St-Louis/3737-Meramec-St-63116/home/62721400")
+    await page.goto("https://www.redfin.com/")
 
     await page.type("#search-box-input", address, {
         delay: 100
